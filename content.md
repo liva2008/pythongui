@@ -1,4 +1,4 @@
-# pythongui
+# GUI
 
 ## Tkinter
 
