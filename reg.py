@@ -9,10 +9,12 @@ class RegisterWidget(GridLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
+
 class RegisterApp(App):
     def build(self):
         self.title = "用户注册"
         return RegisterWidget()
+
 
 if __name__ == '__main__':
     Config.set('graphics', 'resizable', 0)

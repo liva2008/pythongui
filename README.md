@@ -21,6 +21,7 @@
 - Combobox下拉框
 - Listbox列表框
 - Treeview表格
+- Canvas画图
 
 ## wxPython
 
@@ -43,6 +44,7 @@
 - ComboBox下拉框
 - ListBox列表框
 - Grid表格
+- GDI+画图
 
 ## PySide
 
@@ -66,6 +68,7 @@
 - QComboBox下拉框
 - QListWidget列表框
 - QTableWidget表格
+- QPainter画图
 
 ## Kivy
 
@@ -93,3 +96,4 @@
 - Spinner下拉框
 - RecycleView列表框
 - RecycleView表格
+- Canvas画图
