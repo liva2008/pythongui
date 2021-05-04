@@ -1,0 +1,151 @@
+Date : 2021-05-04 11:34:37
+Directory : d:\pythongui
+Total : 102 files,  2605 codes, 371 comments, 527 blanks, all 3503 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |         85 |      1,719 |        370 |        453 |      2,542 |
+| XML      |          6 |        559 |          0 |          6 |        565 |
+| kivy     |         10 |        225 |          1 |         27 |        253 |
+| Markdown |          1 |        102 |          0 |         41 |        143 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------+------------+------------+------------+------------+------------+
+| path                                      | files      | code       | comment    | blank      | total      |
++-------------------------------------------+------------+------------+------------+------------+------------+
+| .                                         |        102 |      2,605 |        371 |        527 |      3,503 |
+| kivy                                      |         39 |        815 |        123 |        179 |      1,117 |
+| kivy\canvas                               |          2 |         57 |          0 |          4 |         61 |
+| kivy\kvlayouts                            |         16 |        199 |          6 |         50 |        255 |
+| kivy\layouts                              |          8 |        141 |          8 |         33 |        182 |
+| kivy\projects                             |          3 |        144 |         15 |         20 |        179 |
+| kivy\widgets                              |         10 |        274 |         94 |         72 |        440 |
+| pyside6                                   |         32 |      1,158 |        165 |        173 |      1,496 |
+| pyside6\canvas                            |          1 |         31 |         12 |          8 |         51 |
+| pyside6\layouts                           |          4 |         84 |         28 |         12 |        124 |
+| pyside6\projects                          |          4 |        393 |         15 |         15 |        423 |
+| pyside6\uilayouts                         |         13 |        443 |         40 |         95 |        578 |
+| pyside6\widgets                           |         10 |        207 |         70 |         43 |        320 |
+| tkinter                                   |         15 |        210 |         59 |         63 |        332 |
+| tkinter\canvas                            |          1 |         16 |          8 |          8 |         32 |
+| tkinter\layouts                           |          3 |         35 |          3 |         12 |         50 |
+| tkinter\projects                          |          1 |         32 |         11 |          8 |         51 |
+| tkinter\widgets                           |         10 |        127 |         37 |         35 |        199 |
+| wxpython                                  |         15 |        320 |         24 |         71 |        415 |
+| wxpython\canvas                           |          1 |         31 |          0 |          7 |         38 |
+| wxpython\layouts                          |          3 |         60 |          0 |          9 |         69 |
+| wxpython\projects                         |          1 |         46 |         11 |          7 |         64 |
+| wxpython\widgets                          |         10 |        183 |         13 |         48 |        244 |
++-------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                  | language | code       | comment    | blank      | total      |
++-------------------------------------------+----------+------------+------------+------------+------------+
+| d:\pythongui\README.md                    | Markdown |        102 |          0 |         41 |        143 |
+| d:\pythongui\kivy\canvas\canvas.kv        | kivy     |         42 |          0 |          1 |         43 |
+| d:\pythongui\kivy\canvas\canvas.py        | Python   |         15 |          0 |          3 |         18 |
+| d:\pythongui\kivy\kvlayouts\anchor.kv     | kivy     |          7 |          0 |          1 |          8 |
+| d:\pythongui\kivy\kvlayouts\box.kv        | kivy     |         17 |          0 |          3 |         20 |
+| d:\pythongui\kivy\kvlayouts\float.kv      | kivy     |         30 |          0 |          7 |         37 |
+| d:\pythongui\kivy\kvlayouts\grid.kv       | kivy     |         11 |          0 |          4 |         15 |
+| d:\pythongui\kivy\kvlayouts\l1.py         | Python   |         10 |          1 |          3 |         14 |
+| d:\pythongui\kivy\kvlayouts\l2.py         | Python   |         11 |          1 |          3 |         15 |
+| d:\pythongui\kivy\kvlayouts\l3.py         | Python   |         11 |          1 |          3 |         15 |
+| d:\pythongui\kivy\kvlayouts\l4.py         | Python   |         11 |          1 |          3 |         15 |
+| d:\pythongui\kivy\kvlayouts\l5.py         | Python   |         11 |          1 |          3 |         15 |
+| d:\pythongui\kivy\kvlayouts\l6.py         | Python   |         11 |          1 |          3 |         15 |
+| d:\pythongui\kivy\kvlayouts\l7.py         | Python   |         10 |          0 |          3 |         13 |
+| d:\pythongui\kivy\kvlayouts\l8.py         | Python   |         10 |          0 |          3 |         13 |
+| d:\pythongui\kivy\kvlayouts\page.kv       | kivy     |         13 |          0 |          3 |         16 |
+| d:\pythongui\kivy\kvlayouts\relative.kv   | kivy     |         18 |          0 |          3 |         21 |
+| d:\pythongui\kivy\kvlayouts\scatter.kv    | kivy     |          4 |          0 |          2 |          6 |
+| d:\pythongui\kivy\kvlayouts\stack.kv      | kivy     |         14 |          0 |          3 |         17 |
+| d:\pythongui\kivy\layouts\l1.py           | Python   |         15 |          2 |          3 |         20 |
+| d:\pythongui\kivy\layouts\l2.py           | Python   |         16 |          1 |          4 |         21 |
+| d:\pythongui\kivy\layouts\l3.py           | Python   |         14 |          1 |          4 |         19 |
+| d:\pythongui\kivy\layouts\l4.py           | Python   |         17 |          1 |          5 |         23 |
+| d:\pythongui\kivy\layouts\l5.py           | Python   |         22 |          1 |          3 |         26 |
+| d:\pythongui\kivy\layouts\l6.py           | Python   |         15 |          1 |          4 |         20 |
+| d:\pythongui\kivy\layouts\l7.py           | Python   |         18 |          0 |          5 |         23 |
+| d:\pythongui\kivy\layouts\l8.py           | Python   |         24 |          1 |          5 |         30 |
+| d:\pythongui\kivy\projects\login.py       | Python   |         59 |         13 |         14 |         86 |
+| d:\pythongui\kivy\projects\register.kv    | kivy     |         69 |          1 |          0 |         70 |
+| d:\pythongui\kivy\projects\register.py    | Python   |         16 |          1 |          6 |         23 |
+| d:\pythongui\kivy\widgets\w01.py          | Python   |          8 |          4 |          2 |         14 |
+| d:\pythongui\kivy\widgets\w02.py          | Python   |         12 |          4 |          3 |         19 |
+| d:\pythongui\kivy\widgets\w03.py          | Python   |         14 |          4 |          3 |         21 |
+| d:\pythongui\kivy\widgets\w04.py          | Python   |         14 |          1 |          4 |         19 |
+| d:\pythongui\kivy\widgets\w05.py          | Python   |         13 |          1 |          4 |         18 |
+| d:\pythongui\kivy\widgets\w06.py          | Python   |         52 |          1 |         10 |         63 |
+| d:\pythongui\kivy\widgets\w07.py          | Python   |         48 |          1 |         10 |         59 |
+| d:\pythongui\kivy\widgets\w08.py          | Python   |         18 |          1 |          6 |         25 |
+| d:\pythongui\kivy\widgets\w09.py          | Python   |         63 |          1 |         13 |         77 |
+| d:\pythongui\kivy\widgets\w10.py          | Python   |         32 |         76 |         17 |        125 |
+| d:\pythongui\pyside6\canvas\c1.py         | Python   |         31 |         12 |          8 |         51 |
+| d:\pythongui\pyside6\layouts\l1.py        | Python   |         22 |          7 |          3 |         32 |
+| d:\pythongui\pyside6\layouts\l2.py        | Python   |         20 |          7 |          3 |         30 |
+| d:\pythongui\pyside6\layouts\l3.py        | Python   |         22 |          7 |          3 |         32 |
+| d:\pythongui\pyside6\layouts\l4.py        | Python   |         20 |          7 |          3 |         30 |
+| d:\pythongui\pyside6\projects\login.py    | Python   |         51 |         15 |         10 |         76 |
+| d:\pythongui\pyside6\projects\login.ui    | XML      |         81 |          0 |          1 |         82 |
+| d:\pythongui\pyside6\projects\register.py | Python   |         19 |          0 |          3 |         22 |
+| d:\pythongui\pyside6\projects\register.ui | XML      |        242 |          0 |          1 |        243 |
+| d:\pythongui\pyside6\uilayouts\l1.py      | Python   |         34 |         10 |         17 |         61 |
+| d:\pythongui\pyside6\uilayouts\l1.ui      | XML      |         59 |          0 |          1 |         60 |
+| d:\pythongui\pyside6\uilayouts\l1main.py  | Python   |         13 |          0 |          5 |         18 |
+| d:\pythongui\pyside6\uilayouts\l1main1.py | Python   |         19 |          0 |          3 |         22 |
+| d:\pythongui\pyside6\uilayouts\l2.py      | Python   |         34 |         10 |         17 |         61 |
+| d:\pythongui\pyside6\uilayouts\l2.ui      | XML      |         59 |          0 |          1 |         60 |
+| d:\pythongui\pyside6\uilayouts\l2main.py  | Python   |         13 |          0 |          5 |         18 |
+| d:\pythongui\pyside6\uilayouts\l3.py      | Python   |         34 |         10 |         17 |         61 |
+| d:\pythongui\pyside6\uilayouts\l3.ui      | XML      |         59 |          0 |          1 |         60 |
+| d:\pythongui\pyside6\uilayouts\l3main.py  | Python   |         13 |          0 |          5 |         18 |
+| d:\pythongui\pyside6\uilayouts\l4.py      | Python   |         34 |         10 |         17 |         61 |
+| d:\pythongui\pyside6\uilayouts\l4.ui      | XML      |         59 |          0 |          1 |         60 |
+| d:\pythongui\pyside6\uilayouts\l4main.py  | Python   |         13 |          0 |          5 |         18 |
+| d:\pythongui\pyside6\widgets\w01.py       | Python   |          7 |          4 |          1 |         12 |
+| d:\pythongui\pyside6\widgets\w02.py       | Python   |         12 |          3 |          2 |         17 |
+| d:\pythongui\pyside6\widgets\w03.py       | Python   |         12 |          5 |          2 |         19 |
+| d:\pythongui\pyside6\widgets\w04.py       | Python   |         20 |          9 |          4 |         33 |
+| d:\pythongui\pyside6\widgets\w05.py       | Python   |         16 |          8 |          4 |         28 |
+| d:\pythongui\pyside6\widgets\w06.py       | Python   |         30 |          8 |          5 |         43 |
+| d:\pythongui\pyside6\widgets\w07.py       | Python   |         30 |          8 |          5 |         43 |
+| d:\pythongui\pyside6\widgets\w08.py       | Python   |         23 |          8 |          5 |         36 |
+| d:\pythongui\pyside6\widgets\w09.py       | Python   |         24 |         10 |          5 |         39 |
+| d:\pythongui\pyside6\widgets\w10.py       | Python   |         33 |          7 |         10 |         50 |
+| d:\pythongui\tkinter\canvas\c1.py         | Python   |         16 |          8 |          8 |         32 |
+| d:\pythongui\tkinter\layouts\l1.py        | Python   |         11 |          1 |          4 |         16 |
+| d:\pythongui\tkinter\layouts\l2.py        | Python   |         11 |          1 |          4 |         16 |
+| d:\pythongui\tkinter\layouts\l3.py        | Python   |         13 |          1 |          4 |         18 |
+| d:\pythongui\tkinter\projects\login.py    | Python   |         32 |         11 |          8 |         51 |
+| d:\pythongui\tkinter\widgets\w01.py       | Python   |          7 |          5 |          2 |         14 |
+| d:\pythongui\tkinter\widgets\w02.py       | Python   |          9 |          4 |          2 |         15 |
+| d:\pythongui\tkinter\widgets\w03.py       | Python   |         10 |          9 |          2 |         21 |
+| d:\pythongui\tkinter\widgets\w04.py       | Python   |          9 |          0 |          3 |         12 |
+| d:\pythongui\tkinter\widgets\w05.py       | Python   |          7 |          0 |          3 |         10 |
+| d:\pythongui\tkinter\widgets\w06.py       | Python   |         16 |          4 |          4 |         24 |
+| d:\pythongui\tkinter\widgets\w07.py       | Python   |         19 |          3 |          5 |         27 |
+| d:\pythongui\tkinter\widgets\w08.py       | Python   |         14 |          4 |          5 |         23 |
+| d:\pythongui\tkinter\widgets\w09.py       | Python   |         13 |          5 |          5 |         23 |
+| d:\pythongui\tkinter\widgets\w10.py       | Python   |         23 |          3 |          4 |         30 |
+| d:\pythongui\wxpython\canvas\c1.py        | Python   |         31 |          0 |          7 |         38 |
+| d:\pythongui\wxpython\layouts\l1.py       | Python   |         20 |          0 |          3 |         23 |
+| d:\pythongui\wxpython\layouts\l2.py       | Python   |         20 |          0 |          3 |         23 |
+| d:\pythongui\wxpython\layouts\l3.py       | Python   |         20 |          0 |          3 |         23 |
+| d:\pythongui\wxpython\projects\login.py   | Python   |         46 |         11 |          7 |         64 |
+| d:\pythongui\wxpython\widgets\w01.py      | Python   |          7 |          4 |          3 |         14 |
+| d:\pythongui\wxpython\widgets\w02.py      | Python   |         14 |          0 |          5 |         19 |
+| d:\pythongui\wxpython\widgets\w03.py      | Python   |         15 |          2 |          5 |         22 |
+| d:\pythongui\wxpython\widgets\w04.py      | Python   |         12 |          2 |          2 |         16 |
+| d:\pythongui\wxpython\widgets\w05.py      | Python   |         11 |          1 |          2 |         14 |
+| d:\pythongui\wxpython\widgets\w06.py      | Python   |         19 |          0 |          5 |         24 |
+| d:\pythongui\wxpython\widgets\w07.py      | Python   |         27 |          0 |          4 |         31 |
+| d:\pythongui\wxpython\widgets\w08.py      | Python   |         19 |          0 |          6 |         25 |
+| d:\pythongui\wxpython\widgets\w09.py      | Python   |         19 |          2 |          6 |         27 |
+| d:\pythongui\wxpython\widgets\w10.py      | Python   |         40 |          2 |         10 |         52 |
+| Total                                     |          |      2,605 |        371 |        527 |      3,503 |
++-------------------------------------------+----------+------------+------------+------------+------------+

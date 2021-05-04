@@ -3,6 +3,13 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.config import Config
 from kivy.core.window import Window
 
+"""
+* test
+! test
+? test
+// test
+test
+"""
 class CanvasLayoutWidget(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
