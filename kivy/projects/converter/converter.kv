@@ -1,0 +1,55 @@
+
+<ConverterWidget>:
+    cols:1
+    Label:
+        size_hint: 1, .1
+        text: 'Converter'
+    TextInput:
+        size_hint:1, .23
+        multiline:False
+        on_text:root.converting(args[1])
+
+    GridLayout:
+        cols:4
+        size_hint:1, .22
+
+        ToggleButton:
+            text:'BIN'
+            group:'tog'
+            on_state:root.input_type = 2
+            allow_no_selection:False
+
+        ToggleButton:
+            text:'OCT'
+            group:'tog'
+            on_state:root.input_type = 8
+            allow_no_selection:False
+
+        ToggleButton:
+            text:'DEC'
+            group:'tog'
+            on_state:root.input_type = 10
+            allow_no_selection:False
+            state:'down'
+
+        ToggleButton:
+            text:'HEX'
+            group:'tog'
+            on_state:root.input_type = 16
+            allow_no_selection:False
+    
+    GridLayout:
+        size_hint:1, .45
+        cols:1
+        Label:
+            text:'[size=24]BIN=' + str(root.binary_result) + '[/size]'
+            markup:True
+        Label:
+            text:'[size=24]OCT=' + str(root.octal_result) + '[/size]'
+            markup:True
+        Label:
+            text:'[size=24]DEC=' + str(root.decimal_result) + '[/size]'
+            markup:True
+        Label:
+            text:'[size=24]HEX=' + str(root.hexa_result) + '[/size]'
+            markup:True

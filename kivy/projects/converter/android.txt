@@ -1,0 +1,3 @@
+title=Converter
+author=liva
+orientation=portrait
