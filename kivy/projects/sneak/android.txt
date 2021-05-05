@@ -1,0 +1,3 @@
+title=Sneak
+author=liva
+orientation=landscape
