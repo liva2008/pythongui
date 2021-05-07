@@ -16,6 +16,7 @@ class MyFrame(wx.Frame):
 
     def print_selection(self, event):
         print(f"your selectin is {self.radiobox.GetSelection()}")
+        wx.MessageBox(f"your selectin is {self.radiobox.GetSelection()}")
 
 if __name__ == '__main__':
     app = wx.App()

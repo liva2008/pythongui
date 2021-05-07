@@ -6,9 +6,11 @@ app = wx.App()
 
 # 3.创建顶级widget
 frm = wx.Frame(None, title='Hello')
+# 4.创建容器panel
 panel = wx.Panel(frm)
+# 5.创建组件
 label = wx.StaticText(panel, label = "Hello wxPython!", pos = (100,50))
 frm.Show()
 
-# 4. 进入主循环
+# 6. 进入主循环
 app.MainLoop()

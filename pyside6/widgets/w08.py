@@ -1,7 +1,7 @@
 # QVBoxLayout
 import sys
 from PySide6.QtWidgets import (QComboBox, QApplication,
-    QVBoxLayout, QDialog)
+    QVBoxLayout, QDialog, QMessageBox)
 from PySide6.QtCore import Slot
 
 class Form(QDialog):
@@ -24,6 +24,7 @@ class Form(QDialog):
     @Slot()
     def print_selection(self, event):
         print(f"""your selectin is {self.cb.currentText()}""")
+        QMessageBox.information(None, '标题', f"""{self.cb.currentText()}""", QMessageBox.Ok, QMessageBox.Ok)
 
 if __name__ == '__main__':
     # Create the Qt Application

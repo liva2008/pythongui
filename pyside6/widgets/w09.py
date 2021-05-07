@@ -1,7 +1,7 @@
 # QVBoxLayout
 import sys
 from PySide6.QtWidgets import (QListWidget, QApplication,
-    QVBoxLayout, QDialog, QAbstractItemView)
+    QVBoxLayout, QDialog, QAbstractItemView, QMessageBox)
 from PySide6.QtCore import Slot
 
 class Form(QDialog):
@@ -27,6 +27,7 @@ class Form(QDialog):
     def print_selection(self, event):
         print(f"""your selectin is {event.text()}""")#单选
         #print(f'your selection is {[item.text() for item in self.list.selectedItems()]}')#多选
+        QMessageBox.information(None, '标题', f"""your selectin is {event.text()}""", QMessageBox.Ok, QMessageBox.Ok)
 
 if __name__ == '__main__':
     # Create the Qt Application

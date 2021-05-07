@@ -3,6 +3,7 @@ from kivy.app import App
 from kivy.uix.checkbox import CheckBox
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.popup import Popup
 
 # BoxLayout
 class BoxLayoutWidget(BoxLayout):
@@ -54,6 +55,8 @@ class BoxLayoutWidget(BoxLayout):
 
     def print_selection(self, checkbox, value):
         print(checkbox, value)
+        popup = Popup(title='Title',content=Label(text=f"{checkbox}={value}"),size_hint=(None, None), size=(400, 400))
+        popup.open()
 
 class BoxApp(App):
     def build(self):

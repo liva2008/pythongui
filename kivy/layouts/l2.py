@@ -2,7 +2,7 @@ from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
 
-# BoxLayout
+# BoxLayout 箱式布局
 class BoxLayoutWidget(BoxLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

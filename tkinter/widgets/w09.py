@@ -1,6 +1,7 @@
 # 1.导入tkinter库
 import tkinter as tk
 from tkinter import ttk
+import tkinter.messagebox
 
 # 2.创建窗口window
 window = tk.Tk()
@@ -13,6 +14,7 @@ var.set(('C', 'Java', 'Python', 'Javascript'))
 # 3.创建按钮
 def print_selection(*args):
     print(f"your selectin is {list.curselection()}")
+    tkinter.messagebox.showinfo(title='结果', message=f"{list.curselection()}") 
 
 #list = tk.Listbox(window, listvariable=var,selectmode=tk.MULTIPLE) # 多选
 list = tk.Listbox(window, listvariable=var) #单选

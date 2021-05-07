@@ -8,7 +8,7 @@ class MyFrame(wx.Frame):
         self.label2 = wx.StaticText(panel, label='Java')
         self.label3 = wx.StaticText(panel, label='Python')
         self.label4 = wx.StaticText(panel, label='Javascript')
-
+        # 创建网格布局
         layout = wx.GridSizer(2,2,10, 10)
         layout.Add(self.label1, 0, 0)
         layout.Add(self.label2, 0, 1)

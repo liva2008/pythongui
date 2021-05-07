@@ -4,7 +4,7 @@ win = tk.Tk()
 win.title('layout')
 win.geometry('480x320')
 
-# 网格布局
+# ! 网格布局
 label1 = tk.Label(win, text='C', bg='red')
 label2 = tk.Label(win, text='Java', bg='green')
 label3 = tk.Label(win, text='Python', bg='blue')

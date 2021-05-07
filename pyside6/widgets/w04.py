@@ -4,7 +4,6 @@ from PySide6.QtWidgets import (QLineEdit, QApplication,
     QVBoxLayout, QDialog)
 
 class Form(QDialog):
-
     def __init__(self, parent=None):
         super(Form, self).__init__(parent)
         # Create widgets
@@ -21,7 +20,6 @@ class Form(QDialog):
         layout.addWidget(self.text2)
         # Set dialog layout
         self.setLayout(layout)
-
 if __name__ == '__main__':
     # Create the Qt Application
     app = QApplication(sys.argv)

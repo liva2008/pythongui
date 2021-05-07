@@ -1,5 +1,6 @@
 # 1.导入tkinter库
 import tkinter as tk
+import tkinter.messagebox
 
 # 2.创建窗口window
 window = tk.Tk()
@@ -13,6 +14,7 @@ var4 = tk.StringVar()
 
 def print_selection():
     print(f"your selectin is A({var1.get()}) B({var2.get()}) C({var3.get()}) D({var4.get()})")
+    tkinter.messagebox.showinfo(title='结果', message=f"A({var1.get()}) B({var2.get()}) C({var3.get()}) D({var4.get()})") 
 
 b1 = tk.Checkbutton(window, variable=var1, text='Option A', onvalue=1, offvalue=0, command=print_selection)
 b2 = tk.Checkbutton(window, variable=var2, text='Option B', onvalue=1, offvalue=0, command=print_selection)

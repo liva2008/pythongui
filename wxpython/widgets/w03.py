@@ -8,10 +8,11 @@ class MyFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.say_hello, self.bt)
 
     def say_hello(self, event):
-        dlg = wx.MessageDialog(None, u"消息信息", u"标题", wx.OK | wx.ICON_INFORMATION)
+        wx.MessageBox('Hello wxPython')
+        #dlg = wx.MessageDialog(None, u"消息信息", u"标题", wx.OK | wx.ICON_INFORMATION)
         #dlg = wx.MessageDialog(None, u"消息信息", u"标题", wx.YES_NO | wx.ICON_QUESTION)
         #dlg = wx.MessageDialog(None, u"消息信息", u"标题", wx.OK | wx.ICON_ERROR)
-        dlg.ShowModal()
+        #dlg.ShowModal()
 
 if __name__ == '__main__':
     app = wx.App()

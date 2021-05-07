@@ -1,15 +1,13 @@
 # QVBoxLayout
 import sys
 from PySide6.QtWidgets import (QRadioButton, QApplication,
-    QVBoxLayout, QDialog)
+                               QVBoxLayout, QDialog, QMessageBox)
 from PySide6.QtCore import Slot
 
 class Form(QDialog):
-
     def __init__(self, parent=None):
         super(Form, self).__init__(parent)
         # Create widgets
-        #多行文本框
         self.radio1 = QRadioButton('Option A')
         self.radio1.toggled.connect(self.print_selection)
         self.radio2 = QRadioButton('Option B')
@@ -30,7 +28,11 @@ class Form(QDialog):
 
     @Slot()
     def print_selection(self, event):
-        print(f"your selectin is A({self.radio1.isChecked()}) B({self.radio2.isChecked()}) C({self.radio3.isChecked()}) D({self.radio4.isChecked()})")
+        print(
+            f"your selectin is A({self.radio1.isChecked()}) B({self.radio2.isChecked()}) C({self.radio3.isChecked()}) D({self.radio4.isChecked()})")
+        QMessageBox.information(
+            None, '标题', f"A({self.radio1.isChecked()}) B({self.radio2.isChecked()}) C({self.radio3.isChecked()}) D({self.radio4.isChecked()})", QMessageBox.Ok, QMessageBox.Ok)
+
 
 if __name__ == '__main__':
     # Create the Qt Application

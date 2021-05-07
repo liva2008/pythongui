@@ -3,7 +3,7 @@ from wx.core import EVT_LISTBOX
 
 class MyFrame(wx.Frame):
     def __init__(self, parent, id):
-        wx.Frame.__init__(self, parent, id, '布局',size=(480,320))
+        wx.Frame.__init__(self, parent, id, '列表框',size=(480,320))
         panel = wx.Panel(self)
 
         self.choices = ['C', 'Java', 'Python', 'Javascript']
@@ -19,6 +19,7 @@ class MyFrame(wx.Frame):
     def print_selection(self, event):
         print(f"your selectin is {self.list.GetSelection()}") #单选
         #print(f"your selectin is {self.list.GetSelections()}") #多选
+        wx.MessageBox(f"your selectin is {self.list.GetSelection()}")
 
 if __name__ == '__main__':
     app = wx.App()

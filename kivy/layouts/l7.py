@@ -3,6 +3,7 @@ from kivy.uix.image import AsyncImage
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.scatterlayout import ScatterLayout
 
+# 散点布局
 class ScatterLayoutWidget(ScatterLayout):
     pass
 

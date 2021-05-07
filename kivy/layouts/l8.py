@@ -3,6 +3,7 @@ from kivy.uix.button import Button
 from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.boxlayout import BoxLayout
 
+# 相对布局
 class RelativeLayoutWidget(RelativeLayout):
     pass
 

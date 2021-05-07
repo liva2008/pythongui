@@ -3,7 +3,7 @@ from wx.core import EVT_COMBOBOX
 
 class MyFrame(wx.Frame):
     def __init__(self, parent, id):
-        wx.Frame.__init__(self, parent, id, '布局',size=(480,320))
+        wx.Frame.__init__(self, parent, id, '下拉框',size=(480,320))
         panel = wx.Panel(self)
 
         self.choices = ['C', 'Java', 'Python', 'Javascript']
@@ -17,6 +17,7 @@ class MyFrame(wx.Frame):
 
     def print_selection(self, event):
         print(f"your selectin is {self.cb.GetSelection()}") 
+        wx.MessageBox(f"your selectin is {self.cb.GetSelection()}")
 
 if __name__ == '__main__':
     app = wx.App()

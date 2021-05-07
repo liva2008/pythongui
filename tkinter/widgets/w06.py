@@ -1,5 +1,6 @@
 # 1.导入tkinter库
 import tkinter as tk
+import tkinter.messagebox
 
 # 2.创建窗口window
 window = tk.Tk()
@@ -11,6 +12,7 @@ var = tk.StringVar()
 # 3.创建按钮
 def print_selection():
     print("your selectin is "+var.get())
+    tkinter.messagebox.showinfo(title='结果', message=var.get()) 
 
 b1 = tk.Radiobutton(window, variable=var, text='Option A', value='1', command=print_selection)
 b2 = tk.Radiobutton(window, variable=var, text='Option B', value='2', command=print_selection)

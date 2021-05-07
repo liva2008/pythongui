@@ -3,9 +3,8 @@ from wx.core import EVT_RADIOBOX
 
 class MyFrame(wx.Frame):
     def __init__(self, parent, id):
-        wx.Frame.__init__(self, parent, id, '布局',size=(480,320))
+        wx.Frame.__init__(self, parent, id, '复选框',size=(480,320))
         panel = wx.Panel(self)
-
         self.checkbox1 = wx.CheckBox(panel, -1, 'Option A')
         self.checkbox1.Bind(wx.EVT_CHECKBOX, self.print_selection)
         self.checkbox2 = wx.CheckBox(panel, -1, 'Option B')
@@ -23,6 +22,7 @@ class MyFrame(wx.Frame):
 
     def print_selection(self, event):
         print(f"your selectin is A({self.checkbox1.GetValue()}) B({self.checkbox2.GetValue()}) C({self.checkbox3.GetValue()}) D({self.checkbox4.GetValue()})")
+        wx.MessageBox(f"your selectin is A({self.checkbox1.GetValue()}) B({self.checkbox2.GetValue()}) C({self.checkbox3.GetValue()}) D({self.checkbox4.GetValue()})")
 
 if __name__ == '__main__':
     app = wx.App()

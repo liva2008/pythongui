@@ -8,7 +8,7 @@ class MyFrame(wx.Frame):
         self.label2 = wx.StaticText(panel, label='Java')
         self.label3 = wx.StaticText(panel, label='Python')
         self.label4 = wx.StaticText(panel, label='Javascript')
-
+        # 创建水平布局
         layout = wx.BoxSizer(wx.HORIZONTAL)
         layout.Add(self.label1, proportion=0, flag=wx.LEFT, border=15)
         layout.Add(self.label2, proportion=0, flag=wx.LEFT, border=15)

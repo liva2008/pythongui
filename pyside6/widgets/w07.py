@@ -1,7 +1,7 @@
 # QVBoxLayout
 import sys
 from PySide6.QtWidgets import (QCheckBox, QApplication,
-    QVBoxLayout, QDialog)
+    QVBoxLayout, QDialog, QMessageBox)
 from PySide6.QtCore import Slot
 
 class Form(QDialog):
@@ -9,7 +9,6 @@ class Form(QDialog):
     def __init__(self, parent=None):
         super(Form, self).__init__(parent)
         # Create widgets
-        #多行文本框
         self.check1 = QCheckBox('Option A')
         self.check2 = QCheckBox('Option B')
         self.check3 = QCheckBox('Option C')
@@ -31,6 +30,7 @@ class Form(QDialog):
     @Slot()
     def print_selection(self, event):
         print(f"""your selectin is A({self.check1.isChecked()}) B({self.check2.isChecked()}) C({self.check3.isChecked()}) D({self.check4.isChecked()})""")
+        QMessageBox.information(None, '标题', f"""your selectin is A({self.check1.isChecked()}) B({self.check2.isChecked()}) C({self.check3.isChecked()}) D({self.check4.isChecked()})""", QMessageBox.Ok, QMessageBox.Ok)
 
 if __name__ == '__main__':
     # Create the Qt Application

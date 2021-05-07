@@ -2,7 +2,7 @@ from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.anchorlayout import AnchorLayout
 
-# AnchorLayout
+# AnchorLayout 锚点布局
 class AnchorLayoutWidget(AnchorLayout):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
